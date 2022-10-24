@@ -10,22 +10,65 @@
 <body>
     
     <!-- HTML cheatsheet table -->
-    <table class="table--body">
+    <table class="table--container">
 
         <h1 class="table--heading1">CSS display Property</h1>
 
         <!-- top of table tag/name/description -->
         <thead class="table--head">
+
             <!-- new row -->
             <tr>
-                <th class="head column--1">Tag</th>
+                <th class="head column--1">CSS Syntax</th>
                 <th class="head column--2">Name</th>
                 <th class="head column--3">Description</th>
+                <th class="head column--4">Example</th>
             </tr>
+
         </thead>
 
         <!-- table contents -->
         <tbody class="table--body">
+
+            <!-- new row -->
+            <tr>
+                <!-- CSS Syntax -->
+                <th class="column--1"><code>display: inline;</code></th>
+                <!-- Name -->
+                <th class="column--2">Inline</th>
+                <!-- Description -->
+                <th class="column--3">Elements stay inline with each other - any height and width properties will have no effect.</th>
+                <!-- Example -->
+                <th class="column--4">
+                    <div class="example--back">
+                        <p>Inside this paragraph, we have placed a <span class="inline--span">little tan SPAN</span> element.</p>
+                    </div>
+                </th>
+            </tr>
+
+            <!-- new row -->
+            <tr>
+                <th class="column--1"><code>display: block;</code></th>
+                <th class="column--2">block</th>
+                <th class="column--3">Starts a new line and takes up the whole width.</th>
+                <th class="column--4">
+                    <div class="example--back">
+                        <p>Inside this paragraph, we have placed a <span class="block--span">little tan SPAN</span> element.</p>
+                    </div>
+                </th>
+            </tr>
+
+            <!-- new row -->
+            <tr>
+                <th class="column--1"><code>display: contents;</code></th>
+                <th class="column--2">contents</th>
+                <th class="column--3">Makes the parent container disappear - any child elements will become child elements of the next parent</th>
+                <th class="column--4">
+                    <div class="example--back">
+                        <p>Inside this paragraph, we have placed a <span class="content--span">little tan SPAN</span> element.</p>
+                    </div>
+                </th>
+            </tr>
 
         </tbody>
 

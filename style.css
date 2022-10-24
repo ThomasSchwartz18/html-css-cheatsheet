@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alfa+Slab+One&display=swap');
+
 /* GLOBAL */
 body {
 
@@ -5,58 +7,171 @@ body {
     text-align: center;
 
     /* design */
-    background-color: rgba(220,197,171,255);
+    background-color: rgb(220,197,171);
+}
+
+thead {
+
+    /* design */
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+tbody{
+
+    /* design */
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+code {
+
+    /* design */
+    background-color: rgba(128, 128, 128, 0.263);
+    border-radius: 100px;
+
+    /* position */
+    padding: 5px;
+    margin: auto 15px auto 15px;
+
+}
+
+/* COLUMNS */
+.column--1 {
+    
+    /* design */
+    background-color: rgb(228,223,218);
+    
+    /* position */
+    text-align: center;
+    width: 250px;
+    
+}
+
+.column--2 {
+    
+    /* design */
+    background-color: rgb(228,223,218);
+    
+    /* spacing */
+    width: 100px;
+    
+    /* position */
+    text-align: center;
+    
+}
+
+.column--3 {
+    
+    /* design */
+    background-color: rgb(228,223,218);
+    
+    /* spacing */
+    width: 275px;
+    
+    /* position */
+    text-align: center;
+    
+}
+
+.column--4 {
+    
+    /* design */
+    background-color: rgb(228,223,218);
+    
+    /* spacing */
+    width: 275px;
+    
+    /* position */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+/* EXAMPLES */
+.example--back {
+
+    /* spacing */
+    width: 90%;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+
+    /* design */
+    background-color: rgb(220,197,171);
+    color: rgb(61,64,87);
+
+    /* position */
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* inline */
+.inline--span {
+
+    /* display */
+    display: inline;
+
+    /* design */
+    background-color: rgb(228,223,218);
+
+}
+
+.block--span {
+
+    /* display */
+    display: block;
+
+    /* design */
+    background-color: rgb(228,223,218);
+
+}
+
+.content--span {
+
+    /* display */
+    display: contents;
+
+    /* design */
+    background-color: rgb(228,223,218);
+
 }
 
 /* TABLE--HEADING */
-.table--body {
-
+.table--container {
+    
     /* centering table */
     margin-left: auto;
     margin-right: auto;
-
+    
     /* design */
-    border: 2px solid rgba(72,58,65,255);
-
+    border: 2px solid rgb(72,58,65);
+    
 }
 
 .table--heading1 {
-
+    
     /* design */
-    color: rgba(72,58,65,255);
+    color: rgb(72,58,65);
+    font-family: 'Alfa Slab One', cursive;
 
 }
 
 .head {
 
     /* design */
-    background-color: rgba(247,247,247,255);
     color: rgba(72,58,65,255);
-    border-bottom: 1px solid rgba(146, 169, 176);
+    border-bottom: 1px solid rgb(146, 169, 176);
+    font-size: 19px;
 
 }
 
-/* COLUMNS */
-.column--1 {
+/* TABLE__BODY */
+.table--body {
 
-    /* spacing */
-    padding-right: 25px;
-    padding-left: 5px;
-
-}
-
-.column--2 {
-
-    /* spacing */
-    padding-right: 25px;
-    padding-left: 5px;
-
-}
-
-.column--3 {
-
-    /* spacing */
-    padding-right: 150px;
-    padding-left: 5px;
+    /* design */
+    
 
 }
