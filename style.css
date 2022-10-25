@@ -178,6 +178,20 @@ code {
 
 }
 
+.inline-grid-- {
+
+    /* display */
+    display: -ms-inline-grid;
+
+}
+
+.none-- {
+
+    /* display */
+    display: none;
+
+}
+
 /* TABLE--HEADING */
 .table--container {
     
@@ -212,5 +226,4 @@ code {
 
     /* design */
     
-
 }
