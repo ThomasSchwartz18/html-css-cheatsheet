@@ -154,6 +154,30 @@ code {
 
 }
 
+.grid-- {
+
+    /* display */
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+
+}
+
+.inline-block-- {
+
+    /* display */
+    display: inline-block;
+
+    /* position */
+
+}
+
+.inline-flex-- {
+
+    /* display */
+    display: inline-flex;
+
+}
+
 /* TABLE--HEADING */
 .table--container {
     

@@ -30,12 +30,12 @@
         <!-- table contents -->
         <tbody class="table--body">
 
-            <!-- new row -->
+            <!-- new row - display -->
             <tr>
                 <!-- CSS Syntax -->
                 <th class="column--1"><code>display: inline;</code></th>
                 <!-- Name -->
-                <th class="column--2">Inline</th>
+                <th class="column--2">inline</th>
                 <!-- Description -->
                 <th class="column--3">Elements stay inline with each other - any height and width properties will have no effect</th>
                 <!-- Example -->
@@ -46,7 +46,7 @@
                 </th>
             </tr>
 
-            <!-- new row -->
+            <!-- new row - block -->
             <tr>
                 <th class="column--1"><code>display: block;</code></th>
                 <th class="column--2">block</th>
@@ -58,7 +58,7 @@
                 </th>
             </tr>
 
-            <!-- new row -->
+            <!-- new row - contents -->
             <tr>
                 <th class="column--1"><code>display: contents;</code></th>
                 <th class="column--2">contents</th>
@@ -70,7 +70,7 @@
                 </th>
             </tr>
 
-            <!-- new row -->
+            <!-- new row - flex-->
             <tr>
                 <th class="column--1"><code>display: flex;</code></th>
                 <th class="column--2">flex</th>
@@ -82,6 +82,51 @@
                             <div class="container--block"></div>
                             <div class="container--block"></div>
                             <div class="container--block"></div>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+
+            <!-- new row - grid -->
+            <tr>
+                <th class="column--1"><code>display: grid;</code></th>
+                <th class="column--2">grid</th>
+                <th class="column--3">Displays an element as a block-level grid container</th>
+                <th class="column--4">
+                    <div class="example--back">
+                        <div class="grid--">
+                            <div class="container--block"></div>
+                            <div class="container--block"></div>
+                            <div class="container--block"></div>
+                            <div class="container--block"></div>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+
+            <!-- new row -inline-block-->
+            <tr>
+                <th class="column--1"><code>display: inline-block;</code></th>
+                <th class="column--2">inline-block</th>
+                <th class="column--3">Formatted as inline element but you can apply height and width values</th>
+                <th class="column--4">
+                    <div class="example--back">
+                        <div class="inline-block--">
+                            <p>This inline-block's --> <div class="container--block inline-block--"></div> width and height can be modified!</p>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+
+            <!-- new row - inline-flex -->
+            <tr>
+                <th class="column--1"><code>display: inline-flex;</code></th>
+                <th class="column--2">inline-flex</th>
+                <th class="column--3">Displays an element as an inline flex container</th>
+                <th class="column--4">
+                    <div class="example--back">
+                        <div class="">
+                            <p>This inline-flex's --> <div class="container--block inline-flex--"></div> is displayed as an inline level flex container!</p>
                         </div>
                     </div>
                 </th>
